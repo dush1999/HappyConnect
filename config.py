@@ -1,7 +1,7 @@
 import datetime
 
 # GEMINI CONFIGURATION
-API_KEY = "AIzaSyDGB2v6Bq4cvdYB45jO663-EfckggqhQhg" 
+#API_KEY = <API_KEY>  # <-- Set your API key here
 GEMINI_MODEL = "gemini-2.5-flash-preview-09-2025"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={API_KEY}"
 
